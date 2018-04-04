@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!---
+    PWA Mini. Copyright (c) 2018 HWALab. MIT License.
+    https://www.hwalab.com/pwamini/
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PWA Mini - The Simplest Progressive Web App Ever?</title>
+    <meta name="description" content="It's light, minimal, free and open source, so it can be used to test PWA support on any browser and platform. Useful as a recent apps / browser tab divider.">
+
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#000000" />
+
+    <style>
+        body {
+            background: #000000;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- We need some content for the Lighthouse audit to pass. It's black on black, so it's invisible. -->
+    <p>Hello, World! I'm a PWA.</p>
+
+    <script>
+        // Blank out the document title using an invisible (zero-width) control character
+        document.title = "\u200E";
+
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+</body>
+
+</html>

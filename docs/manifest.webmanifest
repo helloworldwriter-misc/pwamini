@@ -1,0 +1,15 @@
+{
+    "name": "PWA Mini",
+    "short_name": "PWA Mini",
+    "description": "It's light, minimal, free and open source, so it can be used to test PWA support on any browser and platform. Also useful as a recent apps / browser tab divider.",
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "icons": [
+        {
+            "src": "/pwamini-app-icon-512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
