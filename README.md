@@ -1,10 +1,12 @@
 # PWA Mini
-The Simplest Progressive Web App Ever? It's light, minimal, free and open source, so it can be used to test PWA support on any browser and platform. It may even be useful as a recent apps / browser tab divider.
+**The simplest Progressive Web App ever?** It's light, minimal, free and open source, so it can be used to test PWA support on any browser and platform. It may even be useful as a recent apps / browser tab divider.
 <br><br>
 
-| Running in Google Chrome on Android | Useful as a browser tab divider? |
-| --- | --- |
-| ![PWA Mini Screenshot: Android Chrome Tab](../assets/pwamini-screenshot-android-chrome-tab.png) | ![PWA Mini Screenshot: Android Chrome Switch Tabs](../assets/pwamini-screenshot-android-chrome-switch-tabs.png) |
+| In Chrome on Android | Add to Home Screen | Full screen PWA | Browser tab divider? |
+| --- | --- | --- | --- |
+| ![PWA Mini Screenshot: Android Chrome Tab](../assets/pwamini-screenshot-android-chrome-tab.png) | ![PWA Mini Screenshot: Android Chrome Add to Home](../assets/pwamini-screenshot-android-chrome-add-home.png) | ![PWA Mini Screenshot: Android Chrome Switch Tabs](../assets/pwamini-screenshot-android-pwa.png) | ![PWA Mini Screenshot: Android PWA](../assets/pwamini-screenshot-android-chrome-switch-tabs.png) |
+
+
 
 ## Contributions
 
